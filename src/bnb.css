@@ -1,0 +1,49 @@
+.nav {
+    height: 70px;
+    display: flex;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width:175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.card-title {
+    font-weight: bold;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+}
+.card-stats {
+    display: flex;
+    align-content: center;
+}
+.card-stats > img, .card-stats > span {
+    margin-right: 2px;
+    align-self: center;
+}
+.card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.card-badge {
+    position: absolute;
+    padding: 4px;
+    border-radius: 2px;
+    margin: 4px;
+    font-weight: bold;
+    background-color: #f1f1f2;
+}
+.stats-star {
+    width: 14px;
+}
+.bold {
+    font-weight: bold;
+}
